@@ -8,6 +8,6 @@ class Home extends BaseController
     {
         echo view('includes/header');
         echo view('home');
-        // echo view('includes/footer');
+        echo view('includes/footer');
     }
 }
