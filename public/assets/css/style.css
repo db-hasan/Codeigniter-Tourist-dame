@@ -1,3 +1,8 @@
+* {
+    font-family: 'Nunito',
+        sans-serif;
+}
+
 li {
     list-style: none;
 }
@@ -8,17 +13,69 @@ a {
 }
 
 #header nav {
-    background-color: rgba(0, 0, 0, 0.653) !important;
+    background-color: rgba(22, 33, 70, 0.3) !important;
+    padding: 15px 30px;
+    border-bottom: 1px solid #c4c4c4;
+    position: fixed;
+    width: 100%;
+}
+
+#header .brand {
+    padding: 0;
+    margin: 0;
+}
+
+#header .brand h1 {
+    color: rgb(134, 184, 23) !important;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 #header li a {
     padding-left: 15px !important;
     padding-right: 15px !important;
     font-weight: 500;
+    font-size: 20px;
     color: #FFF;
 }
 
 #header li a:hover {
     color: rgb(17, 236, 39);
     border-radius: 5px;
+}
+
+#header ul li:last-child {
+    background-color: #a8b817;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#header ul li:last-child:hover {
+    background-color: #FFF;
+}
+
+#banner {
+    background: url(../images/banner.jpg) no-repeat fixed;
+    background-size: 100%;
+    display: block;
+}
+
+#banner h1 {
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 1.8;
+}
+
+#banner p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#banner .overlay {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 230px 0;
 }

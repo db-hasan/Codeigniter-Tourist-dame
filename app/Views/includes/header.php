@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo base_url('public/assets/css/style.css');?>" rel="stylesheet">
     <link href="<?php echo base_url('public/assets/css/bootstrap.min.css');?>" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 
@@ -13,7 +16,9 @@
     <div id='header'>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/"><img src="" alt="" /><strong>Tourist</strong></a>
+                <a class="navbar-brand brand" href="/">
+                    <h1><i class="fa fa-map-marker-alt me-3"></i>Tourist</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -41,17 +46,28 @@
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Service</a>
+                                <a class="nav-link" href="#">Booking</a>
                             </li>
-                            <button class="btn btn-outline-warning" type="submit">
-                                <a class='text-light' href="#">Booking</a></button>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
     </div>
-    <script src="<?php echo base_url('public/assets/js/bootstrap.bundle.min.js')?>"></script>
+    <section id="banner">
+        <div class="overlay">
+            <div class="container">
+                <div class="text-light text-center">
+                    <h1 class="">Enjoy Your Vacation With Us</h1>
+                    <p class="">Non Profit Student Organization for Skill Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src=" <?php echo base_url('public/assets/js/bootstrap.bundle.min.js')?>"></script>
 </body>
 
 </html>
