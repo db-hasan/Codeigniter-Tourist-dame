@@ -54,18 +54,7 @@
             </div>
         </nav>
     </div>
-    <section id="banner">
-        <div class="overlay">
-            <div class="container">
-                <div class="text-light text-center">
-                    <h1 class="">Enjoy Your Vacation With Us</h1>
-                    <p class="">Non Profit Student Organization for Skill Development</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
+    <?= $this->renderSection('content') ?>
 
     <script src=" <?php echo base_url('public/assets/js/bootstrap.bundle.min.js')?>"></script>
 </body>
