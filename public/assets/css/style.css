@@ -80,6 +80,10 @@ a {
     padding: 230px 0;
 }
 
+.footer a {
+    text-decoration: none;
+}
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
@@ -108,6 +112,7 @@ a {
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
+    text-decoration: none;
 }
 
 .footer .btn.btn-link::before {

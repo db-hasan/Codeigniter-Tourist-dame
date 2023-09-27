@@ -25,22 +25,28 @@
                 <h4 class="text-white mb-3">Gallery</h4>
                 <div class="row g-2 pt-2">
                     <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                        <img class="img-fluid bg-light p-1"
+                            src="<?php echo base_url('public/assets/images/banner.jpg');?>" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                        <img class="img-fluid bg-light p-1"
+                            src="<?php echo base_url('public/assets/images/banner.jpg');?>" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                        <img class="img-fluid bg-light p-1"
+                            src="<?php echo base_url('public/assets/images/banner.jpg');?>" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
+                        <img class="img-fluid bg-light p-1"
+                            src="<?php echo base_url('public/assets/images/banner.jpg');?>" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
+                        <img class="img-fluid bg-light p-1"
+                            src="<?php echo base_url('public/assets/images/banner.jpg');?>" alt="">
                     </div>
                     <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
+                        <img class="img-fluid bg-light p-1"
+                            src="<?php echo base_url('public/assets/images/banner.jpg');?>" alt="">
                     </div>
                 </div>
             </div>
@@ -60,10 +66,8 @@
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    &copy; <a class="border-bottom" href="#">Travel Management</a>, All Right Reserved.
+                    Designed By <a class="border-bottom" href="https://helpsx.com"><Strong> HelpsX IT</Strong></a>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-menu">

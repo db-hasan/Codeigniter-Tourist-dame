@@ -12,7 +12,7 @@
     </div>
 </section>
 
-<h1>This is Facilities Page</h1>
+<h1>Facilities</h1>
 
 
 <?= $this->include('includes/footer.php') ?>
