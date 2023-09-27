@@ -12,7 +12,7 @@
     </div>
 </section>
 
-<h1>service</h1>
+<h1>This is Contact Page</h1>
 
 
 <?= $this->include('includes/footer.php') ?>

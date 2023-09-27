@@ -7,3 +7,8 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/service', 'Home::service');
+$routes->get('/package', 'Home::package');
+$routes->get('/facilities', 'Home::facilities');
+$routes->get('/about', 'Home::about');
+$routes->get('/contact', 'Home::contact');
+$routes->get('/booking', 'Home::booking');

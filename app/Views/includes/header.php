@@ -31,22 +31,22 @@
                                 <a class="nav-link" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="/service">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Packages</a>
+                                <a class="nav-link" href="/package">Packages</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Facilities</a>
+                                <a class="nav-link" href="/facilities">Facilities</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="/about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="/contact">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Booking</a>
+                                <a class="nav-link" href="/booking">Booking</a>
                             </li>
                         </ul>
                     </div>
