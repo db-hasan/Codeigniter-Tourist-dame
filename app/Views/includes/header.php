@@ -28,7 +28,7 @@
                     <div class='col-md-12'>
                         <ul class="navbar-nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="/">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/service">Services</a>
