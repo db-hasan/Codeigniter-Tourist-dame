@@ -1,3 +1,10 @@
+:root {
+    --primary: #86B817;
+    --secondary: #FE8800;
+    --light: #F5F5F5;
+    --dark: #14141F;
+}
+
 * {
     font-family: 'Nunito',
         sans-serif;
@@ -12,6 +19,7 @@ a {
     font-weight: 500;
 }
 
+/*** Hearder start ***/
 #header nav {
     background-color: rgba(22, 33, 70, 0.3) !important;
     padding: 15px 30px;
@@ -26,7 +34,7 @@ a {
 }
 
 #header .brand h1 {
-    color: rgb(134, 184, 23) !important;
+    color: var(--primary);
     font-weight: 800;
     font-size: 30px;
     padding: 0;
@@ -47,7 +55,7 @@ a {
 }
 
 #header ul li:last-child {
-    background-color: #a8b817;
+    background: var(--primary);
     border-radius: 25px;
     padding-left: 10px;
     padding-right: 10px;
@@ -57,6 +65,9 @@ a {
     background-color: #FFF;
 }
 
+/*** Hearder End ***/
+
+/*** Banner start ***/
 #banner {
     background: url(../images/banner.jpg) no-repeat fixed;
     background-size: 100%;
@@ -80,6 +91,76 @@ a {
     padding: 230px 0;
 }
 
+/*** Banner End ***/
+
+/*** Section Title  Start***/
+.section-title {
+    position: relative;
+    display: inline-block;
+    font-weight: 800;
+    color: var(--primary);
+    text-transform: uppercase;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 4px;
+    left: -40px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 120px);
+    height: 2px;
+    bottom: 5px;
+    left: -60px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title.text-start::before {
+    width: calc(100% + 40px);
+    left: 0;
+}
+
+.section-title.text-start::after {
+    width: calc(100% + 60px);
+    left: 0;
+}
+
+/*** Section Title  End***/
+
+/*** Service Start ***/
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.service-item:hover {
+    background: var(--primary);
+}
+
+.service-item * {
+    transition: .5s;
+}
+
+.service-item:hover * {
+    color: var(--light) !important;
+}
+
+/*** Service End ***/
+
+/*** Footer start ***/
 .footer a {
     text-decoration: none;
 }
