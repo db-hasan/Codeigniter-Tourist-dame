@@ -142,23 +142,23 @@ a {
 
 /*** Service Start ***/
 .service-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-    transition: .5s;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.228);
 }
 
 .service-item:hover {
     background: var(--primary);
 }
 
-.service-item * {
-    transition: .5s;
-}
-
 .service-item:hover * {
     color: var(--light) !important;
 }
 
+#service .card {
+    flex-direction: row !important;
+}
+
 /*** Service End ***/
+
 
 /*** Footer start ***/
 .footer a {
