@@ -1,5 +1,5 @@
 <div class="container-fluid bg-dark text-light pt-5 mt-5 footer" id="footer">
-    <div class="container py-5">
+    <div class="container pt-1">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-3">Company</h4>
