@@ -132,6 +132,26 @@
 
 /***Title  End***/
 
+/***Service  Start***/
+.service-images img {
+    border-radius: 5px;
+}
+
+.sub-title {
+    font-family: 'Playfair Display', serif;
+    color: #cf9437;
+    margin-top: 0px;
+}
+
+.amenities li {
+    display: inline-block;
+    background: rgba(239, 232, 221, 0.3);
+    padding: 3px 20px;
+    margin-bottom: 7px;
+}
+
+/***Service  End***/
+
 /*** Package End ***/
 .card-title {
     color: #343a3f;
