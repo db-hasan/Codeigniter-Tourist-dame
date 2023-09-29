@@ -57,6 +57,18 @@
     background-color: #FFF;
 }
 
+#header ul.nav>li>a:focus {
+    color: #ff545a;
+}
+
+#header li.active>a {
+    color: #ff545a;
+}
+
+nav.navbar.bootsnav ul.nav>li>a {
+    padding: 34px 21px;
+}
+
 /*** Hearder End ***/
 
 /*** Banner start ***/
@@ -255,6 +267,21 @@ hr {
 }
 
 /*** Facilities End ***/
+
+/*** Booking Start ***/
+/* #booking .form-control {
+    width: 50% !important;
+} */
+
+.form-control {
+    width: 50% !important;
+}
+
+.booking-btn {
+    margin: 20px 5px 0px 5px;
+}
+
+/*** Booking End ***/
 
 /*** Footer start ***/
 .footer a {

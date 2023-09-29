@@ -25,38 +25,6 @@
                     <img src="<?php echo base_url('public/assets/images/img3.jpg');?>" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Europe Tour</h5>
-                        <!-- <div class="row">
-                            <div class="col-sm-12">
-                                <div class="row">
-                                    <div class="col-sm-6">Regular Package</div>
-                                    <div class="col-sm-6">Price : $50</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="row">
-                                    <div class="col-sm-6">Couple Package</div>
-                                    <div class="col-sm-6">Price : $90</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="row">
-                                    <div class="col-sm-6">Family Package</div>
-                                    <div class="col-sm-6">Price : Up to $130</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="row">
-                                    <div class="col-sm-6">Group Package</div>
-                                    <div class="col-sm-6">Price : Up to $130</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="row">
-                                    <div class="col-sm-6">Business Package</div>
-                                    <div class="col-sm-6">Price : Up to $140</div>
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="row">
                             <p class="col-md-4 package-item">
                                 <i class="fa-solid fa-star rating"></i>

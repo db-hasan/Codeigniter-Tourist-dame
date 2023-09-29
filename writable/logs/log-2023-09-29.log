@@ -8,3 +8,15 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\codeigniter\\public\\index.php')
+CRITICAL - 2023-09-29 18:19:10 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 423.
+ 1 APPPATH\Views\frontend\booking.php(83): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp\\htdocs\\codeigniter\\app\\Views\\frontend\\booking.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontend/booking', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('frontend/booking')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->booking()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\codeigniter\\public\\index.php')
