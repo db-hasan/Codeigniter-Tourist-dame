@@ -1,0 +1,10 @@
+CRITICAL - 2023-09-29 12:34:58 --> Invalid file: "frontend/About.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/About.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontend/About', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('frontend/About')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->about()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\codeigniter\\public\\index.php')
