@@ -12,8 +12,8 @@
     </div>
 </section>
 
-<!-- Service Start -->
-<div class="container-xxl pt-5 pb-2" id='service'>
+<!-- facilities Start -->
+<div class="container-xxl pt-5 pb-2" id='facilities'>
     <div class="container">
         <div class="text-center">
             <h6 class="section-title bg-white text-center px-3">Facilities</h6>
@@ -22,7 +22,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-md-6 col-lg-3">
                 <div class="card  h-100">
-                    <div class="service-item rounded pt-3">
+                    <div class="facilities-item rounded pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
                             <h5>WorldWide Tours</h5>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class=" card h-100">
-                    <div class="service-item rounded pt-3">
+                    <div class="facilities-item rounded pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
                             <h5>Hotel Reservation</h5>
@@ -44,7 +44,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="card h-100">
-                    <div class="service-item rounded pt-3">
+                    <div class="facilities-item rounded pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-user text-primary mb-4"></i>
                             <h5>Travel Guides</h5>
@@ -55,7 +55,7 @@
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="card h-100">
-                    <div class="service-item rounded pt-3">
+                    <div class="facilities-item rounded pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-cog text-primary mb-4"></i>
                             <h5>Event Management</h5>
@@ -68,7 +68,7 @@
         </div>
     </div>
 </div>
-<!-- Service End -->
+<!-- facilities End -->
 
 
 <?= $this->include('includes/footer.php') ?>
