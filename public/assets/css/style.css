@@ -95,7 +95,8 @@
 }
 
 .title {
-    font-weight: 800;
+    font-weight: 400 !important;
+    color: var(--primary);
 }
 
 .section-title::before {
