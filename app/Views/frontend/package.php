@@ -66,7 +66,7 @@
                                 <i class="fa-regular fa-star rating"></i>
                             </p>
                             <p class="col package-item">
-                                <span class="explore-price">5$-300$</span>
+                                <span class="explore-price">$500-$3000</span>
                             </p>
                             <p class="col package-item last">
                                 <span class="explore-price">Package</span>
@@ -86,12 +86,13 @@
                                 </span>
                             </p>
                         </div>
-                        <p class="text">Travel Price Depended to Package. Pleace Choce a Package and Enjoy Your Vacation
-                            With Us</p>
+                        <p class="text">Travel Price Depended to Package. Please Choose a Package Before
+                            <strong class="booking-date">09/08/2023</strong>
+                            and Enjoy Your Vacation</p>
                         <hr>
                         <div class="row">
                             <a class="col package-status open">Open Now</a>
-                            <a class="col Chose-package " href="">Chose Package</a>
+                            <a class="col Chose-package " href="">Choose Package</a>
                         </div>
                     </div>
                 </div>
@@ -130,12 +131,13 @@
                                 </span>
                             </p>
                         </div>
-                        <p class="text">Travel Price Depended to Package. Pleace Choce a Package and Enjoy Your Vacation
-                            With Us</p>
+                        <p class="text">Travel Price Depended to Package. Please Choose a Package Before
+                            <strong class="booking-date">09/08/2023</strong>
+                            and Enjoy Your Vacation</p>
                         <hr>
                         <div class="row">
                             <a class="col package-status open">Open Now</a>
-                            <a class="col Chose-package " href="">Chose Package</a>
+                            <a class="col Chose-package " href="">Choose Package</a>
                         </div>
                     </div>
                 </div>
@@ -146,7 +148,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Canada Tour</h5>
                         <div class="row">
-                            <p class="col-md-4 package-item">
+                            <p class="col package-item">
                                 <i class="fa-solid fa-star rating"></i>
                                 <i class="fa-solid fa-star rating"></i>
                                 <i class="fa-solid fa-star rating"></i>
@@ -175,12 +177,13 @@
                             </p>
 
                         </div>
-                        <p class="text">Travel Price Depended to Package. Pleace Choce a Package and Enjoy Your Vacation
-                            With Us</p>
+                        <p class="text">Travel Price Depended to Package. Please Choose a Package Before
+                            <strong class="booking-date">09/08/2023</strong>
+                            and Enjoy Your Vacation</p>
                         <hr>
                         <div class="row">
                             <a class="col package-status close">Close Now</a>
-                            <a class="col Chose-package " href="">Chose Package</a>
+                            <a class="col Chose-package " href="">Choose Package</a>
                         </div>
                     </div>
                 </div>

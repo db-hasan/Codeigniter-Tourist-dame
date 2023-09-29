@@ -85,7 +85,7 @@
 
 /*** Banner End ***/
 
-/*** Section Title  Start***/
+/*** Title  Start***/
 .section-title {
     position: relative;
     display: inline-block;
@@ -130,26 +130,8 @@
     left: 0;
 }
 
-/*** Section Title  End***/
+/***Title  End***/
 
-/*** Service Start ***/
-.service-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, 0.228);
-}
-
-.service-item:hover {
-    background: var(--primary);
-}
-
-.service-item:hover * {
-    color: var(--light) !important;
-}
-
-#service .card {
-    flex-direction: row !important;
-}
-
-/*** Service End ***/
 /*** Package End ***/
 .card-title {
     color: #343a3f;
@@ -202,6 +184,12 @@ hr {
     padding: 10px;
 }
 
+.booking-date {
+    padding: 0px 10px;
+    color: #f63138;
+    border-radius: 10px;
+}
+
 .open {
     color: #00c437;
 }
@@ -223,11 +211,29 @@ hr {
 }
 
 .package:hover {
-    background-color: #c8d3daca !important;
+    background-color: #edf0f2df !important;
 }
 
 /*** Package End ***/
 
+/*** Facilities Start ***/
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.228);
+}
+
+.service-item:hover {
+    background: var(--primary);
+}
+
+.service-item:hover * {
+    color: var(--light) !important;
+}
+
+#service .card {
+    flex-direction: row !important;
+}
+
+/*** Facilities End ***/
 
 /*** Footer start ***/
 .footer a {

@@ -16,8 +16,8 @@
 <div class="container-xxl pt-5 pb-2" id='service'>
     <div class="container">
         <div class="text-center">
-            <h6 class="section-title bg-white text-center px-3">Services</h6>
-            <h1 class="mb-5 title">Our Services</h1>
+            <h6 class="section-title bg-white text-center px-3">Facilities</h6>
+            <h1 class="mb-5 title">Our Facilities</h1>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-md-6 col-lg-3">
