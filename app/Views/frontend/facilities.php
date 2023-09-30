@@ -13,7 +13,7 @@
 </section>
 
 <!-- facilities Start -->
-<div class="container-xxl pt-5 pb-2" id='facilities'>
+<div class="container-xxl pt-5 pb-5" id='facilities'>
     <div class="container">
         <div class="text-center">
             <h6 class="section-title bg-white text-center px-3">Facilities</h6>

@@ -149,6 +149,10 @@
     font-size: 30px;
 }
 
+.amenities {
+    padding: 0px !important;
+}
+
 .amenities li {
     display: inline-block;
     background: rgba(239, 232, 221, 0.3);
@@ -285,12 +289,15 @@ hr {
 /*** Facilities End ***/
 
 /*** Booking Start ***/
+#booking {
+    background-color: #8888881d;
+}
 
-#booking .form-control {
+.booking .form-control {
     width: 50% !important;
 }
 
-#booking .booking-btn {
+.booking .booking-btn {
     margin: 20px 5px 20px 5px;
 }
 
@@ -301,9 +308,13 @@ hr {
     font-size: 30px;
 }
 
-.button {
-    background-color: #cf9437;
-    padding: 3px;
+.package-price {
+    font-family: 'Playfair Display',
+        serif;
+    color: #415608;
+    margin: 0px;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .btn {
@@ -313,11 +324,11 @@ hr {
 
 }
 
-#booking .pack .row>* {
+.booking .pack .row>* {
     margin-right: 0px !important;
 }
 
-#booking .row {
+.booking .row {
     margin-right: 0px !important;
     margin-left: 0px !important;
 }

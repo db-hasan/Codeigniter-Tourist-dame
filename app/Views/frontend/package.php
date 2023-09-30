@@ -13,7 +13,7 @@
 </section>
 
 <!-- Packages Start -->
-<div class="container-xxl pt-4 pb-2">
+<div class="container-xxl p-5">
     <div class="container">
         <div class="text-center">
             <h6 class="section-title bg-white text-center px-3">Packages</h6>
