@@ -59,7 +59,6 @@
                         <button type="button" class="btn btn-outline-danger booking-btn">Danger</button>
                         <button type="button" class="btn btn-outline-success booking-btn">Success</button>
                     </div>
-
                 </form>
             </div>
             <div class="col-md-8">

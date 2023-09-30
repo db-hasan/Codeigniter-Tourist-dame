@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div id='header'>
+    <section id='header'>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand brand" href="/">
@@ -28,16 +28,16 @@
                     <div class='col-md-12'>
                         <ul class="navbar-nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="/">Home</a>
+                                <a class="nav-link scroll active" href="#banner">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/service">Services</a>
+                                <a class="nav-link scroll" href="#service">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/package">Packages</a>
+                                <a class="nav-link scroll" href="#packages">Packages</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/facilities">Facilities</a>
+                            <li class="nav-item ">
+                                <a class="nav-link scroll" href="#facilities">Facilities</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/about">About</a>
@@ -53,11 +53,38 @@
                 </div>
             </div>
         </nav>
-    </div>
+    </section>
     <?= $this->renderSection('content') ?>
 
     <script src=" <?php echo base_url('public/assets/js/bootstrap.bundle.min.js')?>"></script>
     <script src=" <?php echo base_url('public/assets/js/main.js')?>"></script>
+
+    <script>
+        // Function to add or remove the 'active' class from navigation links
+        function setActiveLink() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link.scroll');
+
+            sections.forEach((section) => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 100 && rect.bottom >= 100) {
+                    const targetId = section.getAttribute('id');
+                    navLinks.forEach((navLink) => {
+                        navLink.classList.remove('active');
+                        if (navLink.getAttribute('href') === `#${targetId}`) {
+                            navLink.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }
+
+        // Add an event listener for the 'scroll' event
+        window.addEventListener('scroll', setActiveLink);
+
+        // Initially set the active link when the page loads
+        window.addEventListener('load', setActiveLink);
+    </script>
 </body>
 
 </html>
