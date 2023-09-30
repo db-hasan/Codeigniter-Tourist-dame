@@ -13,7 +13,7 @@
 </section>
 
 <!-- Contact Start -->
-<div class="container-xxl pt-5">
+<div class="container-xxl pt-5 pb-4">
     <div class="container">
         <div class="text-center">
             <h6 class="section-title bg-white text-center px-3">Services</h6>

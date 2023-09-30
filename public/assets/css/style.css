@@ -13,7 +13,8 @@
 
 /*** Hearder start ***/
 #header nav {
-    background-color: rgba(22, 33, 70, 0.3) !important;
+    background-color: rgba(22, 33, 70, 0.644) !important;
+    /* background-color: rgba(22, 33, 70, 0.3) !important; */
     padding: 15px 30px;
     border-bottom: 1px solid #c4c4c4;
     position: fixed;
@@ -67,7 +68,6 @@
 #banner {
     background: url(../images/banner.jpg) no-repeat fixed;
     background-size: 100%;
-    display: block;
 }
 
 #banner h1 {
@@ -175,6 +175,29 @@
     text-transform: capitalize;
     font-weight: 400;
     margin: 15px 0 20px;
+}
+
+.card {
+    position: unset !important;
+}
+
+.list-group-item {
+    position: unset !important;
+}
+
+.input-group {
+    position: unset !important;
+}
+
+.input-group>.form-control,
+.input-group>.form-floating,
+.input-group>.form-select {
+    position: unset !important;
+}
+
+.input-group .btn {
+    position: unset !important;
+    z-index: -1 !important;
 }
 
 .package-item a {
@@ -289,6 +312,16 @@ hr {
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
 
 }
+
+#booking .pack .row>* {
+    margin-right: 0px !important;
+}
+
+#booking .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
 
 /* Style the container with a custom scrollbar End */
 .custom-scrollbar {

@@ -8,7 +8,6 @@
     <link href="<?php echo base_url('public/assets/css/bootstrap.min.css');?>" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-
     <title>Document</title>
 </head>
 
