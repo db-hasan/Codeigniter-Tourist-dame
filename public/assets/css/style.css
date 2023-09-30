@@ -146,6 +146,7 @@
     font-family: 'Playfair Display', serif;
     color: #cf9437;
     margin-top: 0px;
+    font-size: 30px;
 }
 
 .amenities li {
@@ -261,18 +262,50 @@ hr {
 /*** Facilities End ***/
 
 /*** Booking Start ***/
-/* #booking .form-control {
-    width: 50% !important;
-} */
 
 #booking .form-control {
     width: 50% !important;
 }
 
 #booking .booking-btn {
-    margin: 20px 5px 0px 5px;
+    margin: 20px 5px 20px 5px;
 }
 
+.booking-sub-title {
+    font-family: 'Playfair Display', serif;
+    color: #cf9437;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.button {
+    background-color: #cf9437;
+    padding: 3px;
+}
+
+.btn {
+    --bs-btn-padding-x: 5px !important;
+    --bs-btn-padding-y: 2px !important;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+
+}
+
+/* Style the container with a custom scrollbar End */
+.custom-scrollbar {
+    height: 92vh;
+    overflow: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+/* Style the container with a custom scrollbar End */
 /*** Booking End ***/
 
 /*** Footer start ***/

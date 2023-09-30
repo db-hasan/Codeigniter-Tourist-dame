@@ -13,9 +13,12 @@
 </head>
 
 <body>
+    <div class="con">
+
+    </div>
     <div class="container-fluid mt-5">
         <div class="row">
-            <div class="col-md-4 px-5">
+            <div class="col-lg-4 ps-5">
                 <form action="" method="post" id="booking">
                     <ul class="list-group mb-3">
                         <li class="list-group-item d-flex justify-content-between lh-sm">
@@ -56,29 +59,64 @@
                         <button type="submit" class="btn btn-secondary">Redeem</button>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-outline-danger booking-btn">Danger</button>
-                        <button type="button" class="btn btn-outline-success booking-btn">Success</button>
+                        <button type="button" class="btn btn-outline-danger booking-btn">Close</button>
+                        <button type="button" class="btn btn-outline-success booking-btn">Booking</button>
                     </div>
                 </form>
             </div>
-            <div class="col-md-8">
-                <div class="row pb-5">
-                    <div class="col service-images">
-                        <img src="<?php echo base_url('public/assets/images/travel.jpg');?>" class="card-img-top"
-                            alt="...">
-                    </div>
-                    <div class="col">
-                        <h2 class="sub-title">Regular Package</h2>
-                        <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a
-                            thoughtfully
-                        </p>
-                        <ul class="amenities">
-                            <li><span>✓</span> Welcome Drink</li>
-                            <li><span>✓</span> AC Transport</li>
-                            <li><span>✓</span> Wi-Fi</li>
-                            <li><span>✓</span> Newspaper</li>
-                            <li><span>✓</span> Breakfast</li>
-                        </ul>
+            <div class="col-lg-8">
+                <div class="custom-scrollbar">
+                    <div class="scroll-content">
+                        <div class="row pb-5">
+                            <div class="col service-images">
+                                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h2 class="booking-sub-title">Regular Package</h2>
+                                    <div class="pe-3">
+                                        <button type="submit" class="btn btn-outline-success">Add Now</button>
+                                    </div>
+                                </div>
+
+                                <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a
+                                    thoughtfully
+                                </p>
+                                <ul class="amenities">
+                                    <li><span>✓</span> Welcome Drink</li>
+                                    <li><span>✓</span> AC Transport</li>
+                                    <li><span>✓</span> Wi-Fi</li>
+                                    <li><span>✓</span> Newspaper</li>
+                                    <li><span>✓</span> Breakfast</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row pb-5">
+                            <div class="col service-images">
+                                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="col">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h2 class="booking-sub-title">Regular Package</h2>
+                                    <div class="pe-3">
+                                        <button type="submit" class="btn btn-outline-success">Add Now</button>
+                                    </div>
+                                </div>
+
+                                <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a
+                                    thoughtfully
+                                </p>
+                                <ul class="amenities">
+                                    <li><span>✓</span> Welcome Drink</li>
+                                    <li><span>✓</span> AC Transport</li>
+                                    <li><span>✓</span> Wi-Fi</li>
+                                    <li><span>✓</span> Newspaper</li>
+                                    <li><span>✓</span> Breakfast</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
