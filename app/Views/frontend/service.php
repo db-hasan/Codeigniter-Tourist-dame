@@ -13,7 +13,7 @@
 </section>
 
 <!-- Service Start -->
-<div class="container-xxl p-5">
+<section class="container-xxl pt-5" id="service">
     <div class="container">
         <div class="text-center">
             <h6 class="section-title bg-white text-center px-3">Services</h6>
@@ -21,11 +21,11 @@
         </div>
     </div>
     <div class="container">
-        <div class="row pb-5">
-            <div class="col service-images">
+        <div class="row">
+            <div class="col-md-6 pb-4 service-images">
                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>" class="card-img-top" alt="...">
             </div>
-            <div class="col">
+            <div class="col-md-6 pb-4 ">
                 <h2 class="sub-title">Transport & Travel Service</h2>
                 <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a thoughtfully
                     designed spacious room with all the necessary availabilities that will surely ensure your peace of
@@ -42,15 +42,12 @@
                 </ul>
             </div>
         </div>
-        <div class="row pb-5">
-            <div class="col">
+        <div class="row">
+            <div class="col-md-6 pb-4 ">
                 <h2 class="sub-title">5* Resort & Food Service</h2>
                 <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a thoughtfully
                     designed spacious room with all the necessary availabilities that will surely ensure your peace of
-                    mind during the stay. The en-suite bath gives you homelike comfort with the availability of hot
-                    water and modern bath-fittings. A wardrobe to give space to your clothes, a telephone for emergency
-                    access, comfortable couches for visitors to accompany you over a coffee, and high-speed internet
-                    access that gives wings to your work.Deluxe Single:</p>
+                    mind during the stay. The en-suite bath gives you homelike comfort with the availability of hot:</p>
                 <ul class="amenities">
                     <li><span>✓</span> Welcome Drink</li>
                     <li><span>✓</span> Fruit Basket</li>
@@ -63,15 +60,15 @@
                     <li><span>✓</span> Buffet Dinner</li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-md-6 pb-4 service-images">
                 <img src="<?php echo base_url('public/assets/images/resort.jpg');?>" class="card-img-top" alt="...">
             </div>
         </div>
         <div class="row">
-            <div class="col service-images">
+            <div class="col-md-6 pb-4 service-images">
                 <img src="<?php echo base_url('public/assets/images/health.avif');?>" class="card-img-top" alt="...">
             </div>
-            <div class="col">
+            <div class="col-md-6 pb-4 ">
                 <h2 class="sub-title">Health & Social Safety</h2>
                 <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a thoughtfully
                     designed spacious room with all the necessary availabilities that will surely ensure your peace of
@@ -89,7 +86,8 @@
             </div>
         </div>
     </div>
-</div>
+
+</section>
 <!-- Service End -->
 
 

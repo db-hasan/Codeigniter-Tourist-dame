@@ -333,24 +333,6 @@ hr {
     margin-left: 0px !important;
 }
 
-
-/* Style the container with a custom scrollbar End */
-.custom-scrollbar {
-    height: 92vh;
-    overflow: auto;
-}
-
-.custom-scrollbar::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 5px;
-}
-
-/* Style the container with a custom scrollbar End */
 /*** Booking End ***/
 
 /*** Footer start ***/

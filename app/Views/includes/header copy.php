@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
     <title>Document</title>
+    <style>
+        .custom-scrollbar {
+            height: 92vh;
+            overflow: auto;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 5px;
+            height: 5px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #888;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,16 +43,16 @@
                     <div class='col-md-12'>
                         <ul class="navbar-nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="/">Home</a>
+                                <a class="nav-link scroll active" href="#banner">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/service">Services</a>
+                                <a class="nav-link scroll" href="#service">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/package">Packages</a>
+                                <a class="nav-link scroll" href="#packages">Packages</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="/facilities">Facilities</a>
+                                <a class="nav-link scroll" href="#facilities">Facilities</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/about">About</a>
@@ -57,6 +73,33 @@
 
     <script src=" <?php echo base_url('public/assets/js/bootstrap.bundle.min.js')?>"></script>
     <script src=" <?php echo base_url('public/assets/js/main.js')?>"></script>
+
+    <script>
+        // Function to add or remove the 'active' class from navigation links
+        function setActiveLink() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link.scroll');
+
+            sections.forEach((section) => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 100 && rect.bottom >= 100) {
+                    const targetId = section.getAttribute('id');
+                    navLinks.forEach((navLink) => {
+                        navLink.classList.remove('active');
+                        if (navLink.getAttribute('href') === `#${targetId}`) {
+                            navLink.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }
+
+        // Add an event listener for the 'scroll' event
+        window.addEventListener('scroll', setActiveLink);
+
+        // Initially set the active link when the page loads
+        window.addEventListener('load', setActiveLink);
+    </script>
 </body>
 
 </html>
