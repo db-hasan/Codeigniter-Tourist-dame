@@ -4,7 +4,7 @@
 <section id="package-banner">
     <div class="banner-overlay">
         <div class="text-light banner-title">
-            <h1 class="">Our Packages</h1>
+            <h1 class="">Our Events</h1>
         </div>
     </div>
 </section>
@@ -57,7 +57,7 @@
                         <hr>
                         <div class="row">
                             <a class="col package-status open">Open Now</a>
-                            <a class="col Chose-package " href="">Choose Package</a>
+                            <a class="col Chose-package " href="/booking">Choose Package</a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                         <hr>
                         <div class="row">
                             <a class="col package-status open">Open Now</a>
-                            <a class="col Chose-package " href="">Choose Package</a>
+                            <a class="col Chose-package " href="/booking">Choose Package</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                         <hr>
                         <div class="row">
                             <a class="col package-status close">Close Now</a>
-                            <a class="col Chose-package " href="">Choose Package</a>
+                            <a class="col Chose-package " href="/booking">Choose Package</a>
                         </div>
                     </div>
                 </div>

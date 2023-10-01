@@ -4,7 +4,7 @@
 <section id="facilities-banner">
     <div class="banner-overlay">
         <div class="text-light banner-title">
-            <h1 class="">Our Facilities</h1>
+            <h1 class="">Facilities</h1>
         </div>
     </div>
 </section>

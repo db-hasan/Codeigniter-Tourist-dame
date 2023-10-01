@@ -4,7 +4,7 @@
 <section id="service-banner">
     <div class="banner-overlay">
         <div class="text-light banner-title">
-            <h1 class="">About Our Compony</h1>
+            <h1 class="">About Us</h1>
         </div>
     </div>
 </section>
