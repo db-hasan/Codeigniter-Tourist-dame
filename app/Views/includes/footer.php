@@ -1,7 +1,7 @@
 <div class="container-fluid bg-dark text-light pt-5  footer" id="footer">
     <div class="container pt-1">
         <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-sm-6">
                 <h4 class="text-white mb-3">Company</h4>
                 <a class="btn btn-link" href="">About Us</a>
                 <a class="btn btn-link" href="">Contact Us</a>
@@ -9,7 +9,7 @@
                 <a class="btn btn-link" href="">Terms & Condition</a>
                 <a class="btn btn-link" href="">FAQs & Help</a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-sm-6">
                 <h4 class="text-white mb-3">Contact</h4>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>5810 Bogura, Bangladesh</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>01723629080</p>
