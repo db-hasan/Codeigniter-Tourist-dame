@@ -138,6 +138,33 @@
 /***Title  End***/
 
 /***Service  Start***/
+#service-banner {
+    background: url(../images/service.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+.banner-title {
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.banner-title h1 {
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 1.8;
+}
+
+.banner-overlay {
+    background-color: rgba(0, 0, 0, .5);
+    height: 80vh;
+}
+
 .service-images img {
     border-radius: 5px;
 }
