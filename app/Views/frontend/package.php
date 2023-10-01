@@ -13,7 +13,7 @@
 </section>
 
 <!-- Packages Start -->
-<section class="container-xxl p-5" id="packages">
+<div class="container-xxl p-5">
     <div class="container">
         <div class="text-center">
             <h6 class="section-title bg-white text-center px-3">Packages</h6>
@@ -21,7 +21,7 @@
         </div>
         <div class="row  g-4">
             <div class="col-md-6 col-lg-4 ">
-                <div class="card  h-100">
+                <div class="card  h-100 package">
                     <img src="<?php echo base_url('public/assets/images/img3.jpg');?>" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Europe Tour</h5>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="card  h-100">
+                <div class="card  h-100 package">
                     <img src="<?php echo base_url('public/assets/images/img1.jpg');?>" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">France Tour</h5>
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="card  h-100">
+                <div class="card  h-100 package">
                     <img src="<?php echo base_url('public/assets/images/img2.jpg');?>" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Canada Tour</h5>
@@ -158,8 +158,7 @@
             </div>
         </div>
     </div>
-</section>
-<!-- Packages End -->
+</div> <!-- Packages End -->
 
 
 

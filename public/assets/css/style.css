@@ -67,7 +67,7 @@
 /*** Banner start ***/
 #banner {
     background: url(../images/banner.jpg) no-repeat fixed;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #banner h1 {
