@@ -51,6 +51,7 @@
                         <input type="text" class="form-control" placeholder="Promo code">
                         <button type="submit" class="btn btn-secondary">Redeem</button>
                     </div>
+
                     <div class="d-flex justify-content-end">
                         <button type="button" class="btn btn-outline-danger booking-btn">Close</button>
                         <button type="button" class="btn btn-outline-success booking-btn">Booking</button>
