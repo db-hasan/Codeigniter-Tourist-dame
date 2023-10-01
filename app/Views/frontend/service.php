@@ -4,7 +4,7 @@
 <section id="service-banner">
     <div class="banner-overlay">
         <div class="text-light banner-title">
-            <h1 class="">Enjoy Your Vacation With Us</h1>
+            <h1 class="">Our service</h1>
         </div>
     </div>
 </section>

@@ -1,10 +1,10 @@
 <?= $this->extend('includes/header.php') ?>
 
 <?= $this->section('content') ?>
-<section id="service-banner">
+<section id="facilities-banner">
     <div class="banner-overlay">
         <div class="text-light banner-title">
-            <h1 class="">Enjoy Your Vacation With Us</h1>
+            <h1 class="">Our Facilities</h1>
         </div>
     </div>
 </section>

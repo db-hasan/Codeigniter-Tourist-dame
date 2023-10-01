@@ -144,6 +144,36 @@
     height: 80vh;
 }
 
+#package-banner {
+    background: url(../images/service.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+#facilities-banner {
+    background: url(../images/service.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+#about-banner {
+    background: url(../images/service.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+#contact-banner {
+    background: url(../images/service.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+#booking-banner {
+    background: url(../images/service.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
 .banner-title {
     height: 80vh;
     display: flex;
@@ -358,6 +388,22 @@ hr {
 .booking .row {
     margin-right: 0px !important;
     margin-left: 0px !important;
+}
+
+/* booking scrollbar */
+.custom-scrollbar {
+    height: 92vh;
+    overflow: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
 }
 
 /*** Booking End ***/
