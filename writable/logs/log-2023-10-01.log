@@ -8,3 +8,33 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\codeigniter\\public\\index.php')
+CRITICAL - 2023-10-01 16:46:32 --> Invalid file: "frontend/events.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/events.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontend/events', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('frontend/events')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->events()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\codeigniter\\public\\index.php')
+CRITICAL - 2023-10-01 16:53:05 --> Invalid file: "frontend/events.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/events.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontend/events', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('frontend/events')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->events()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\codeigniter\\public\\index.php')
+CRITICAL - 2023-10-01 17:07:40 --> Invalid file: "frontend/singup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/singup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontend/singup', [], true)
+ 3 APPPATH\Controllers\Home.php(37): view('frontend/singup')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->singup()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\codeigniter\\public\\index.php')

@@ -33,4 +33,13 @@ class Home extends BaseController
     return view('frontend/booking');
     }
     
+    public function singup()
+    {
+    return view('frontend/singup');
+    }
+    public function singin()
+    {
+    return view('frontend/singin');
+    }
+    
 }
