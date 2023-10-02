@@ -2,14 +2,18 @@
 
 <?= $this->section('content') ?>
 <section id="booking-banner">
-    <div class="banner-overlay">
-        <div class="text-light banner-title">
+    <div class="booking-overlay">
+        <div class="text-light booking-title">
             <h1 class="">Enjoy Your Vacation With Us</h1>
         </div>
     </div>
 </section>
 <div id="booking">
     <div class="container-fluid pt-5  booking">
+        <div class="text-center">
+            <h6 class="section-title bg-white text-center px-3">Packages</h6>
+            <h1 class="mb-4 title">Choose Packages</h1>
+        </div>
         <div class="row">
             <div class="col-lg-4 ps-3">
                 <form action="" method="post">
@@ -58,10 +62,10 @@
                     </div>
                 </form>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 pack">
                 <div class="custom-scrollbar">
                     <div class="scroll-content">
-                        <div class="row pb-3">
+                        <div class="row pb-3 ">
                             <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">

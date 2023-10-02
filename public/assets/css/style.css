@@ -164,12 +164,6 @@
     height: 80vh;
 }
 
-#booking-banner {
-    background: url(../images/service.jpg) no-repeat fixed;
-    background-size: cover;
-    height: 80vh;
-}
-
 .banner-title {
     height: 80vh;
     display: flex;
@@ -344,9 +338,34 @@ hr {
 /*** Facilities End ***/
 
 /*** Booking Start ***/
-#booking {
-    background-color: #8888881d;
+#booking-banner {
+    background: url(../images/service.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 60vh;
 }
+
+.booking-title {
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.booking-title h1 {
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 1.8;
+}
+
+.booking-overlay {
+    background-color: rgba(0, 0, 0, .5);
+    height: 60vh;
+}
+
+
 
 .booking .form-control {
     width: 50% !important;
@@ -379,18 +398,21 @@ hr {
 
 }
 
-.booking .pack .row>* {
-    margin-right: 0px !important;
-}
-
 .booking .row {
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
 
+.booking .pack .row>* {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+
+
 /* booking scrollbar */
 .custom-scrollbar {
-    height: 92vh;
+    height: 60vh;
     overflow: auto;
 }
 
