@@ -12,56 +12,58 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col">
-            <form class="row g-3 m-5">
-                <div class="col-md-6">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+    <div id="signin">
+        <div class="d-flex justify-content-center align-middle p-3 sign-overlay">
+            <div class="card singin">
+                <img src="<?php echo base_url('public/assets/images/login.webp');?>" class="card-img-top card-img"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title py-4">Sing In</h5>
+                    <form action="" method="post">
+                        <div class="from-group mb-3 d-md-flex">
+                            <div class="w-50 d-flex justify-content-start pe-3">
+                                <input type="text" class="form-control" placeholder="First Name" require>
+                            </div>
+                            <div class="w-50 d-flex justify-content-end ps-3">
+                                <input type="text" class="form-control" placeholder="Last name" require>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Username" require>
+                        </div>
+                        <div class="from-group mb-3">
+                            <input type="password" class="form-control" placeholder="Password" require id="">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Phone Number" require>
+                        </div>
+                        <div class="from-group mb-3 d-md-flex">
+                            <div class="w-50 d-flex justify-content-start pe-3">
+                                <input type="text" class="form-control" placeholder="5810 Shibgonj" require>
+                            </div>
+                            <div class="w-50 d-flex justify-content-end ps-3">
+                                <input type="text" class="form-control" placeholder="Bogura" require>
+                            </div>
+                        </div>
+                        <div class="from-group mb-3">
+                            <button type="submit" class="btn w-100 singbutton"><a href="/checkout">Create Account and
+                                    Continue</a></button>
+                        </div>
+
+                        <div class="from-group mb-3 d-md-flex">
+                            <div class="w-100 d-flex justify-content-start ">
+                                <input type="checkbox" class="rememberbutton">
+                                <label class="rememberbutton" for="">I'm Agree <a href="">Terms & Conditions</a></label>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="signup-login">I've account? <a href="/singin"><strong>login Now</strong></a></p>
                 </div>
-                <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2"
-                        placeholder="Apartment, studio, or floor">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">State</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Check me out
-                        </label>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-                </div>
-            </form>
+            </div>
         </div>
-        <div class="col">hasa</div>
     </div>
+
+
     <script src=" <?php echo base_url('public/assets/js/bootstrap.bundle.min.js')?>"></script>
     <script src=" <?php echo base_url('public/assets/js/main.js')?>"></script>
 </body>

@@ -27,7 +27,8 @@
                             <input type="password" class="form-control" placeholder="Password" require id="">
                         </div>
                         <div class="from-group mb-3">
-                            <button type="submit" class="btn w-100 singbutton">Sign in</button>
+                            <button type="submit" class="btn w-100 singbutton"><a href="/checkout">Signin and
+                                    Continue</a></button>
                         </div>
                         <div class="from-group mb-3 d-md-flex">
                             <div class="w-50 d-flex justify-content-start ">
@@ -39,7 +40,7 @@
                             </div>
                         </div>
                     </form>
-                    <p class="text-center">Not a member? <a href="">Sign Up</a></p>
+                    <p class="text-center">Not a member? <a href="/singup">Sign Up</a></p>
                 </div>
             </div>
         </div>

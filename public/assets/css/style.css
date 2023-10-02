@@ -493,7 +493,16 @@ hr {
     color: #fff !important;
 }
 
+.singbutton a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
 .rememberbutton {
     color: #01d28e !important;
     padding: 5px;
 }
+
+/* .signup-login {
+    padding-top: 0px;
+} */
