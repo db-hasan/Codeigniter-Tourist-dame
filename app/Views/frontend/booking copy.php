@@ -145,10 +145,6 @@
                                         <button type="submit" class="btn btn-outline-success">Add Now</button>
                                     </div>
                                 </div>
-
-                                <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a
-                                    thoughtfully
-                                </p>
                                 <ul class="amenities mb-0">
                                     <li><span>✓</span> Welcome Drink</li>
                                     <li><span>✓</span> AC Transport</li>

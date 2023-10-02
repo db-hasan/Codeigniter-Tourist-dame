@@ -134,7 +134,6 @@
 
 /***Title  End***/
 
-/***Service  Start***/
 #service-banner {
     background: url(../images/service.jpg) no-repeat fixed;
     background-size: cover;
@@ -192,6 +191,7 @@
     height: 80vh;
 }
 
+/***Service  Start***/
 .service-images img {
     border-radius: 5px;
 }
@@ -209,9 +209,14 @@
 
 .amenities li {
     display: inline-block;
+    /* width: 49%; */
     background: rgba(239, 232, 221, 0.3);
     padding: 3px 20px;
     margin-bottom: 7px;
+}
+
+.service-content {
+    text-align: justify;
 }
 
 /***Service  End***/

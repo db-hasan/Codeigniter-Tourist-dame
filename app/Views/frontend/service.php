@@ -20,16 +20,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 pb-4 service-images">
-                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>" class="card-img-top" alt="...">
+                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>" class="card-img-top h-100"
+                    alt="...">
             </div>
-            <div class="col-md-6 pb-4 ">
+            <div class="col-md-6 pb-4">
                 <h2 class="sub-title">Transport & Travel Service</h2>
-                <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a thoughtfully
+                <p class="service-content">For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft
+                    of a thoughtfully
                     designed spacious room with all the necessary availabilities that will surely ensure your peace of
-                    mind during the stay. The en-suite bath gives you homelike comfort with the availability of hot
-                    water and modern bath-fittings. A wardrobe to give space to your clothes, a telephone for emergency
-                    access, comfortable couches for visitors to accompany you over a coffee, and high-speed internet
-                    access that gives wings to your work.Deluxe Single:</p>
+                    mind during the stay. The en-suite bath gives you homelike comfort with the availability of hot:</p>
                 <ul class="amenities">
                     <li><span>✓</span> Welcome Drink</li>
                     <li><span>✓</span> AC Transport</li>
@@ -42,7 +41,8 @@
         <div class="row">
             <div class="col-md-6 pb-4 ">
                 <h2 class="sub-title">5* Resort & Food Service</h2>
-                <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a thoughtfully
+                <p class="service-content">For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft
+                    of a thoughtfully
                     designed spacious room with all the necessary availabilities that will surely ensure your peace of
                     mind during the stay. The en-suite bath gives you homelike comfort with the availability of hot:</p>
                 <ul class="amenities">
@@ -58,16 +58,19 @@
                 </ul>
             </div>
             <div class="col-md-6 pb-4 service-images">
-                <img src="<?php echo base_url('public/assets/images/resort.jpg');?>" class="card-img-top" alt="...">
+                <img src="<?php echo base_url('public/assets/images/resort.jpg');?>" class="card-img-top h-100"
+                    alt="...">
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 pb-4 service-images">
-                <img src="<?php echo base_url('public/assets/images/health.avif');?>" class="card-img-top" alt="...">
+            <div class="col-md-6 pb-4">
+                <img src="<?php echo base_url('public/assets/images/health.avif');?>" class="card-img-top h-100"
+                    alt="...">
             </div>
-            <div class="col-md-6 pb-4 ">
+            <div class="col-md-6 pb-4">
                 <h2 class="sub-title">Health & Social Safety</h2>
-                <p>For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft of a thoughtfully
+                <p class="service-content">For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft
+                    of a thoughtfully
                     designed spacious room with all the necessary availabilities that will surely ensure your peace of
                     mind during the stay. The en-suite bath gives you homelike comfort with the availability of hot
                     water and modern bath-fittings. A wardrobe to give space to your clothes, a telephone for emergency
