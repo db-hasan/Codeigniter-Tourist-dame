@@ -18,12 +18,12 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 pb-4 service-images">
-                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>" class="card-img-top h-100"
+        <div class="row pb-3">
+            <div class="col-md-6 pb-3">
+                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>" class="card-img-top h-100 rounded"
                     alt="...">
             </div>
-            <div class="col-md-6 pb-4">
+            <div class="col-md-6 pb-3">
                 <h2 class="sub-title">Transport & Travel Service</h2>
                 <p class="service-content">For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft
                     of a thoughtfully
@@ -38,8 +38,8 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 pb-4 ">
+        <div class="row pb-3">
+            <div class="col-md-6 pb-3">
                 <h2 class="sub-title">5* Resort & Food Service</h2>
                 <p class="service-content">For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft
                     of a thoughtfully
@@ -57,17 +57,17 @@
                     <li><span>✓</span> Buffet Dinner</li>
                 </ul>
             </div>
-            <div class="col-md-6 pb-4 service-images">
-                <img src="<?php echo base_url('public/assets/images/resort.jpg');?>" class="card-img-top h-100"
+            <div class="col-md-6 pb-3">
+                <img src="<?php echo base_url('public/assets/images/resort.jpg');?>" class="card-img-top h-100 rounded"
                     alt="...">
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 pb-4">
-                <img src="<?php echo base_url('public/assets/images/health.avif');?>" class="card-img-top h-100"
+        <div class="row pb-3">
+            <div class="col-md-6 pb-3">
+                <img src="<?php echo base_url('public/assets/images/health.avif');?>" class="card-img-top h-100 rounded"
                     alt="...">
             </div>
-            <div class="col-md-6 pb-4">
+            <div class="col-md-6 pb-3">
                 <h2 class="sub-title">Health & Social Safety</h2>
                 <p class="service-content">For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft
                     of a thoughtfully

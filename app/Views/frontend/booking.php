@@ -9,7 +9,7 @@
     </div>
 </section>
 <div id="booking">
-    <div class="container-fluid pt-5 pb-5 booking">
+    <div class="container-fluid pt-5  booking">
         <div class="row">
             <div class="col-lg-4 ps-3">
                 <form action="" method="post">
@@ -58,15 +58,15 @@
                     </div>
                 </form>
             </div>
-            <div class="col-lg-8 pack">
+            <div class="col-lg-8">
                 <div class="custom-scrollbar">
                     <div class="scroll-content">
                         <div class="row pb-3">
-                            <div class="col-sm-4 service-images">
+                            <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
-                                    class="card-img-top" alt="...">
+                                    class="card-img-top h-100 rounded" alt="...">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-sm-8 pb-3">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <h2 class="booking-sub-title">Regular Package</h2>
                                     <div class="pe-3">
@@ -86,11 +86,11 @@
                             </div>
                         </div>
                         <div class="row pb-3">
-                            <div class="col-sm-4  service-images">
+                            <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
-                                    class="card-img-top" alt="...">
+                                    class="card-img-top h-100 rounded" alt="...">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-sm-8 pb-3">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <h2 class="booking-sub-title">Couple Package</h2>
                                     <div class="pe-3">
@@ -110,11 +110,11 @@
                             </div>
                         </div>
                         <div class="row pb-3">
-                            <div class="col-sm-4 service-images">
+                            <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
-                                    class="card-img-top" alt="...">
+                                    class="card-img-top h-100 rounded" alt="...">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-sm-8 pb-3">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <h2 class="booking-sub-title">Family Package</h2>
                                     <div class="pe-3">
@@ -134,11 +134,11 @@
                             </div>
                         </div>
                         <div class="row pb-3">
-                            <div class="col-sm-4 service-images">
+                            <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
-                                    class="card-img-top" alt="...">
+                                    class="card-img-top h-100 rounded" alt="...">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-sm-8 pb-3">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <h2 class="booking-sub-title">Group Package</h2>
                                     <div class="pe-3">
@@ -161,12 +161,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row pb-3">
-                            <div class="col-sm-4 service-images">
+                        <div class="row">
+                            <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
-                                    class="card-img-top" alt="...">
+                                    class="card-img-top h-100 rounded" alt="...">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-sm-8 pb-3">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <h2 class="booking-sub-title">Business Package</h2>
                                     <div class="pe-3">
