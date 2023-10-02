@@ -45,16 +45,15 @@
                                 <input type="text" class="form-control" placeholder="Bogura" require>
                             </div>
                         </div>
-                        <div class="from-group mb-3">
-                            <button type="submit" class="btn w-100 singbutton"><a href="/checkout">Create Account and
-                                    Continue</a></button>
-                        </div>
-
                         <div class="from-group mb-3 d-md-flex">
                             <div class="w-100 d-flex justify-content-start ">
                                 <input type="checkbox" class="rememberbutton">
                                 <label class="rememberbutton" for="">I'm Agree <a href="">Terms & Conditions</a></label>
                             </div>
+                        </div>
+                        <div class="from-group mb-3">
+                            <button type="submit" class="btn w-100 singbutton"><a href="/checkout">Create Account and
+                                    Continue</a></button>
                         </div>
                     </form>
                     <p class="signup-login">I've account? <a href="/singin"><strong>login Now</strong></a></p>
