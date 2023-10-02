@@ -2,14 +2,14 @@
 
 <?= $this->section('content') ?>
 <section id="booking-banner">
-    <div class="booking-overlay">
-        <div class="text-light booking-title">
+    <div class="banner-overlay">
+        <div class="text-light banner-title">
             <h1 class="">Enjoy Your Vacation With Us</h1>
         </div>
     </div>
 </section>
 <div id="booking">
-    <div class="container-fluid pt-5  booking">
+    <div class="container-fluid pt-5">
         <div class="text-center">
             <h6 class="section-title bg-white text-center px-3">Packages</h6>
             <h1 class="mb-4 title">Choose Packages</h1>
@@ -51,21 +51,16 @@
                             <strong>$20</strong>
                         </li>
                     </ul>
-                    <div class="input-group">
+                    <div class="input-group pb-3">
                         <input type="text" class="form-control" placeholder="Promo code">
                         <button type="submit" class="btn btn-secondary">Redeem</button>
                     </div>
-
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-outline-danger booking-btn">Close</button>
-                        <button type="button" class="btn btn-outline-success booking-btn">Booking</button>
-                    </div>
                 </form>
             </div>
-            <div class="col-lg-8 pack">
+            <div class="col-lg-8 add-package">
                 <div class="custom-scrollbar">
                     <div class="scroll-content">
-                        <div class="row pb-3 ">
+                        <div class="row py-3 ">
                             <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
@@ -89,7 +84,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <hr>
+                        <div class="row py-3">
                             <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
@@ -113,7 +109,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <hr>
+                        <div class="row py-3">
                             <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
@@ -137,7 +134,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row pb-3">
+                        <hr>
+                        <div class="row py-3">
                             <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
@@ -165,7 +163,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <hr>
+                        <div class="row py-3">
                             <div class="col-sm-4 pb-3">
                                 <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
@@ -192,6 +191,14 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-end bg-success-subtle">
+        <div class="p-3">
+            <button type="button" class="btn btn-outline-danger booking-btn">Close</button>
+        </div>
+        <div class="p-3 me-3">
+            <button type="button" class="btn btn-outline-success booking-btn">Checkout</button>
         </div>
     </div>
 </div>

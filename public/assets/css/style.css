@@ -164,6 +164,12 @@
     height: 80vh;
 }
 
+#booking-banner {
+    background: url(../images/service.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
 .banner-title {
     height: 80vh;
     display: flex;
@@ -338,41 +344,9 @@ hr {
 /*** Facilities End ***/
 
 /*** Booking Start ***/
-#booking-banner {
-    background: url(../images/service.jpg) no-repeat fixed;
-    background-size: cover;
-    height: 60vh;
-}
 
-.booking-title {
-    height: 60vh;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 20px;
-}
-
-.booking-title h1 {
-    font-size: calc(1.525rem + 3.3vw);
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 1.8;
-}
-
-.booking-overlay {
-    background-color: rgba(0, 0, 0, .5);
-    height: 60vh;
-}
-
-
-
-.booking .form-control {
+#booking .form-control {
     width: 50% !important;
-}
-
-.booking .booking-btn {
-    margin: 20px 5px 20px 5px;
 }
 
 .booking-sub-title {
@@ -391,23 +365,17 @@ hr {
     font-style: italic;
 }
 
-.btn {
+.add-package .btn {
     --bs-btn-padding-x: 5px !important;
     --bs-btn-padding-y: 2px !important;
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
 
 }
 
-.booking .row {
+#booking .row {
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
-
-.booking .pack .row>* {
-    margin-right: 0px !important;
-    margin-left: 0px !important;
-}
-
 
 
 /* booking scrollbar */
@@ -497,4 +465,35 @@ hr {
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+#signin {
+    background: url(../images/loginbackground.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+
+.sign-overlay {
+    background-color: rgba(0, 0, 0, .5);
+
+}
+
+
+.singin {
+    width: 40% !important;
+}
+
+.card-img {
+    height: 40vh !important;
+}
+
+.singbutton {
+    background: #01d28e !important;
+    border: 1px solid #01d28e !important;
+    color: #fff !important;
+}
+
+.rememberbutton {
+    color: #01d28e !important;
+    padding: 5px;
 }

@@ -9,7 +9,7 @@
     </div>
 </section>
 
-<h1>About</h1>
+<h1 class="d-flex justify-content-center">About</h1>
 
 
 <?= $this->include('includes/footer.php') ?>

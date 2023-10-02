@@ -53,7 +53,8 @@
                         </div>
                         <p class="text">Travel Price Depended to Package. Please Choose a Package Before
                             <strong class="booking-date">09/08/2023</strong>
-                            and Enjoy Your Vacation</p>
+                            and Enjoy Your Vacation <strong class="bg-light text-info px-3 rounded">See More</strong>
+                        </p>
                         <hr>
                         <div class="row">
                             <a class="col package-status open">Open Now</a>
@@ -98,7 +99,8 @@
                         </div>
                         <p class="text">Travel Price Depended to Package. Please Choose a Package Before
                             <strong class="booking-date">09/08/2023</strong>
-                            and Enjoy Your Vacation</p>
+                            and Enjoy Your Vacation <strong class="bg-light text-info px-3 rounded">See More</strong>
+                        </p>
                         <hr>
                         <div class="row">
                             <a class="col package-status open">Open Now</a>
@@ -144,7 +146,8 @@
                         </div>
                         <p class="text">Travel Price Depended to Package. Please Choose a Package Before
                             <strong class="booking-date">09/08/2023</strong>
-                            and Enjoy Your Vacation</p>
+                            and Enjoy Your Vacation <strong class="bg-light text-info px-3 rounded">See More</strong>
+                        </p>
                         <hr>
                         <div class="row">
                             <a class="col package-status close">Close Now</a>

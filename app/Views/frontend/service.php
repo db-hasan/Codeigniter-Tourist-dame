@@ -24,7 +24,7 @@
                     alt="...">
             </div>
             <div class="col-md-6 pb-3">
-                <h2 class="sub-title">Transport & Travel Service</h2>
+                <h2 class="sub-title">Our Transport Service</h2>
                 <p class="service-content">For a single person, this deluxe single is just a perfect fit. Enjoy 352 sqft
                     of a thoughtfully
                     designed spacious room with all the necessary availabilities that will surely ensure your peace of
@@ -33,8 +33,10 @@
                     <li><span>✓</span> Welcome Drink</li>
                     <li><span>✓</span> AC Transport</li>
                     <li><span>✓</span> Wi-Fi</li>
-                    <li><span>✓</span> Newspaper</li>
                     <li><span>✓</span> Breakfast</li>
+                    <li><span>✓</span> First Aid Box</li>
+                    <li><span>✓</span> Pressure Machine</li>
+                    <li><span>✓</span> Medicine</li>
                 </ul>
             </div>
         </div>
