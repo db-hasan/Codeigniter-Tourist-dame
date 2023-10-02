@@ -41,5 +41,9 @@ class Home extends BaseController
     {
     return view('frontend/singin');
     }
+    public function checkout()
+    {
+    return view('frontend/checkout');
+    }
     
 }

@@ -14,3 +14,4 @@ $routes->get('/contact', 'Home::contact');
 $routes->get('/booking', 'Home::booking');
 $routes->get('/singup', 'Home::singup');
 $routes->get('/singin', 'Home::singin');
+$routes->get('/checkout', 'Home::checkout');
