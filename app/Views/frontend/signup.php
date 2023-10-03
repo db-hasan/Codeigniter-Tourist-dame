@@ -56,7 +56,7 @@
                                     Continue</a></button>
                         </div>
                     </form>
-                    <p class="signup-login">I've account? <a href="/singin"><strong>login Now</strong></a></p>
+                    <p class="signup-login">I've account? <a href="/"><strong>login Now</strong></a></p>
                 </div>
             </div>
         </div>

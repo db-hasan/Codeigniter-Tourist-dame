@@ -394,6 +394,9 @@ hr {
     background-color: #888;
     border-radius: 5px;
 } */
+.Checkout a:hover {
+    --bs-link-color-rgb: #fff !important;
+}
 
 /*** Booking End ***/
 

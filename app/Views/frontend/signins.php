@@ -27,7 +27,7 @@
                             <input type="password" class="form-control" placeholder="Password" require id="">
                         </div>
                         <div class="from-group mb-3">
-                            <button type="submit" class="btn w-100 singbutton"><a href="/checkout">Signin and
+                            <button type="submit" class="btn w-100 singbutton"><a href="/">Signin and
                                     Continue</a></button>
                         </div>
                         <div class="from-group mb-3 d-md-flex">

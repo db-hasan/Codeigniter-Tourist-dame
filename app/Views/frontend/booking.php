@@ -193,12 +193,13 @@
             </div>
         </div>
     </div>
-    <div class="d-flex justify-content-end bg-success-subtle">
+    <div class="d-flex justify-content-end bg-success-subtle Checkout">
         <div class="p-3">
-            <button type="button" class="btn btn-outline-danger booking-btn">Close</button>
+            <button type="button" class="btn btn-outline-danger">Close</button>
         </div>
         <div class="p-3 me-3">
-            <button type="button" class="btn btn-outline-success booking-btn">Checkout</button>
+            <button type="button" class="btn btn-outline-success"><a class="text-decoration-none"
+                    href="/signins">Checkout</a></button>
         </div>
     </div>
 </div>
