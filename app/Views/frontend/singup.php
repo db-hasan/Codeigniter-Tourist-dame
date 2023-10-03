@@ -39,7 +39,7 @@
                         </div>
                         <div class="from-group mb-3 d-md-flex">
                             <div class="w-50 d-flex justify-content-start pe-3">
-                                <input type="text" class="form-control" placeholder="5810 Shibgonj" require>
+                                <input type="text" class="form-control" placeholder="1234 Main St" require>
                             </div>
                             <div class="w-50 d-flex justify-content-end ps-3">
                                 <input type="text" class="form-control" placeholder="Bogura" require>

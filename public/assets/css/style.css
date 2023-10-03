@@ -389,10 +389,11 @@ hr {
     height: 5px;
 }
 
-.custom-scrollbar::-webkit-scrollbar-thumb {
+/*scrollbar site icone*/
+/* .custom-scrollbar::-webkit-scrollbar-thumb {
     background-color: #888;
     border-radius: 5px;
-}
+} */
 
 /*** Booking End ***/
 
@@ -503,6 +504,6 @@ hr {
     padding: 5px;
 }
 
-/* .signup-login {
-    padding-top: 0px;
-} */
+#checkout .checkout .form-control {
+    width: 50% !important;
+}
