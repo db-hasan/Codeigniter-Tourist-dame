@@ -45,7 +45,7 @@
                                 <a class="nav-link" href="/contact">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/singin">Sign In</a>
+                                <a class="nav-link" href="/signins">Sign In</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/booking">Booking</a>

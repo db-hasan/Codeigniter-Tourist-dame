@@ -12,6 +12,6 @@ $routes->get('/facilities', 'Home::facilities');
 $routes->get('/about', 'Home::about');
 $routes->get('/contact', 'Home::contact');
 $routes->get('/booking', 'Home::booking');
-$routes->get('/singup', 'Home::singup');
-$routes->get('/singin', 'Home::singin');
+$routes->get('/signup', 'Home::signup');
+$routes->get('/signins', 'Home::signins');
 $routes->get('/checkout', 'Home::checkout');
