@@ -52,11 +52,11 @@
                             </div>
                         </div>
                         <div class="from-group mb-3">
-                            <button type="submit" class="btn w-100 singbutton"><a href="/checkout">Create Account and
+                            <button type="submit" class="btn w-100 singbutton"><a href="/">Create Account and
                                     Continue</a></button>
                         </div>
                     </form>
-                    <p class="signup-login">I've account? <a href="/"><strong>login Now</strong></a></p>
+                    <p class="signup-login">I've account? <a href="/signup"><strong>login Now</strong></a></p>
                 </div>
             </div>
         </div>
