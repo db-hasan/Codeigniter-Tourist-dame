@@ -62,7 +62,7 @@
                     <div class="scroll-content">
                         <div class="row py-3 ">
                             <div class="col-sm-4 pb-3">
-                                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
+                                <img src="<?php echo base_url('public/assets/images/single.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
                             </div>
                             <div class="col-sm-8 pb-3">
@@ -87,7 +87,7 @@
                         <hr>
                         <div class="row py-3">
                             <div class="col-sm-4 pb-3">
-                                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
+                                <img src="<?php echo base_url('public/assets/images/doble.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
                             </div>
                             <div class="col-sm-8 pb-3">
@@ -112,7 +112,7 @@
                         <hr>
                         <div class="row py-3">
                             <div class="col-sm-4 pb-3">
-                                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
+                                <img src="<?php echo base_url('public/assets/images/doble.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
                             </div>
                             <div class="col-sm-8 pb-3">
@@ -137,7 +137,7 @@
                         <hr>
                         <div class="row py-3">
                             <div class="col-sm-4 pb-3">
-                                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
+                                <img src="<?php echo base_url('public/assets/images/doble.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
                             </div>
                             <div class="col-sm-8 pb-3">
@@ -166,7 +166,7 @@
                         <hr>
                         <div class="row py-3">
                             <div class="col-sm-4 pb-3">
-                                <img src="<?php echo base_url('public/assets/images/travel.jpg');?>"
+                                <img src="<?php echo base_url('public/assets/images/single.jpg');?>"
                                     class="card-img-top h-100 rounded" alt="...">
                             </div>
                             <div class="col-sm-8 pb-3">
